@@ -29,11 +29,9 @@ public class FarmacyMedicine {
     @ManyToOne
     @JoinColumn(name = "idfarmacy")
     private Farmacy farmacy;
-
     
     public FarmacyMedicine() {
     }
-
 
     public Long getIdFarmacyMedicine() {
         return idFarmacyMedicine;
